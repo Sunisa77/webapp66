@@ -129,7 +129,7 @@
                                  Home
                                 </a>
                                 <div class="dropdown-menu" >
-                                  <a class="dropdown-item" href="index.html" >Home 1</a>
+                                  <a class="dropdown-item" href="{{ route('home1') }}" >Home 1</a>
                                   <a class="dropdown-item" href="index-2.html">Home 2</a>
                                 </div>
                             </li>
@@ -144,7 +144,7 @@
                                   <a class="dropdown-item" href="single-post.html">Single Post</a>
                                   <a class="dropdown-item" href="post-category-1.html">Category 1</a>
                                   <a class="dropdown-item" href="post-category-2.html">Category 2</a>
-                                  <a class="dropdown-item" href="author.html">Author</a>
+                                  <a class="dropdown-item" href="{{ route('author') }}">Author</a>
                                 </div>
                             </li>
                             <li class="nav-item dropdown">
@@ -152,8 +152,8 @@
                                   Account
                                 </a>
                                 <div class="dropdown-menu">
-                                  <a class="dropdown-item" href="account.html">Log In</a>
-                                  <a class="dropdown-item" href="signup.html">Register</a>
+                                  <a class="dropdown-item" href="{{ route('login') }}">Log In</a>
+                                  <a class="dropdown-item" href="{{ route('register') }}">Register</a>
                                 </div>
                             </li>
 
@@ -162,7 +162,7 @@
                                   About
                                 </a>
                                 <div class="dropdown-menu">
-                                  <a class="dropdown-item" href="about.html">About</a>
+                                  <a class="dropdown-item" href="{{ route('about') }}".html">About</a>
                                   <a class="dropdown-item" href="terms.html">Terms</a>
                                   <a class="dropdown-item" href="privacy.html">Privacy Policy</a>
                                   <a class="dropdown-item" href="job.html">Career</a>
@@ -179,7 +179,7 @@
                             </li>
 
                              <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact</a>
+                                <a class="nav-link" href="{{ route('contact') }}">Contact</a>
                             </li>
 
                         </ul>
